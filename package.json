@@ -1,7 +1,7 @@
 {
-  "name": "angular-web3",
-  "version": "0.0.6-beta1",
-  "description": "A schematics packages providing tools for developping Angular Dapps",
+  "name": "Angular utilized for multi-signature wallet creation.",
+  "version": "0.0.8",
+  "description": "A comprehensive toolkit designed for crafting Angular Dapps.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine src//ng-add/tests/**/*_spec.js",
@@ -17,11 +17,7 @@
   "ng-add": {
     "save": false
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jdonosocoding/angular-web3"
-  },
-  "author": "@jdonoso_coding",
+  "author": "Tomas",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
